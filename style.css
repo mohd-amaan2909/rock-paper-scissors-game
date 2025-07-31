@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    background-color: #283618;
+    color: #FEFAE0;
+    text-align: center;
+    height: 3rem;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.choice{
+     transition: all 0.3s ease-in-out ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.choice:hover{
+    scale: 1.08;
+}
+
+
+#rock{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image:url(rock.jpg) ;
+    background-size: cover;
+
+}
+#paper{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image:url(paper.jpg) ;
+    background-size: cover;
+    
+}
+#scissors{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image: url(scissors.jpg);
+    background-size: cover;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    gap: 10rem;
+}
+.score{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#user-score , #comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+   font-size: 1.5rem;
+    background-color: #606C38;
+    border-radius: 1rem; 
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+}
